@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.container{
+    width: 100vw;
+    max-width: 100%;
+}
+
+.inicio {
+    background-image: url('pictures/introBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    width: 100%;
+}
+
+.header-container{
+    display: flex;
+    width: 100%;
+}
+
+#headerLeft{
+    width: 50%;
+    padding-left: 30px;
+}
+
+#headerRight{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+nav ul {
+    display: flex;
+}
+
+#intro{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text{
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+.intro-text h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.intro-text p{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+main {
+    background-image: url("https://static.wixstatic.com/media/05e3dc_9a652459a41748d1bba89f5918d38055.jpg/v1/fill/w_1920,h_560,al_c,q_85,enc_auto/05e3dc_9a652459a41748d1bba89f5918d38055.jpg");
+    background-size: auto;
+    background-repeat: repeat-y;
+    background-position: center bottom;
+    
+}
+
+.main-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main-container h2{
+    text-align: center;
+}
+
