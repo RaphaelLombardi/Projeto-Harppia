@@ -30,6 +30,15 @@ main h2{
     letter-spacing: 4px;
     font-size: 50px;
     font-weight: normal;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+main h3{
+    font-family: 'AltarGothicDemo-Regular', sans-serif;
+    letter-spacing: 4px;
+    font-size: 35px;
+    font-weight: normal;
+    text-shadow: 4px 4px 4px #000000;
 }
 
 .container{
@@ -51,24 +60,27 @@ header{
 
 .header-container{
     display: flex;
-    width: 70%;
+    width: 100%;
+    max-width: 1200px;
     margin: auto;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 #fixed-header{
     position: fixed;
-    height: 100px;
     width: 100%;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.774);
     background: rgba(0, 0, 0, 0.733);
 }
 
 #headerLeft{
-    padding: 30px;
     display: flex;
     align-items: center;
+    width: auto;
+    flex: 1 1 auto;
+    min-width: 0;
 }
 
 #headerLeft img{
@@ -79,6 +91,7 @@ header{
     display: flex;
     align-items: center;
     padding: 30px;
+    flex: 0 0 auto;
 }
 
 nav {
@@ -89,6 +102,7 @@ nav {
 
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
 }
 
@@ -266,6 +280,7 @@ hr{
     text-align: left;
     width: 100%;
     background: rgba(0, 0, 0, 0.445);
+    border-radius: 30px;
 }
 
 .playlist li{
@@ -355,4 +370,43 @@ footer a{
 .icon{
     width: 20px;
     margin-right: 5px; 
+}
+
+#integrantes-content{
+    margin-top: 150px;
+}
+
+.integrante{
+    display: flex;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+
+.integrante h3{
+    margin: 0;
+}
+
+.imagem{
+    width: 100%;
+    max-width: 300px;
+}
+
+.imagem img{
+    width: 100%;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+}
+
+.imagem span{
+    text-align: center;
+    margin-top: 10px;
+    color: darkgrey;
+}
+
+.info{
+    width: 70%;
+}
+
+#n-importa{
+    font-size: 30px;
 }
